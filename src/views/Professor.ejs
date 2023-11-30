@@ -1,0 +1,22 @@
+<!-- views/professores.ejs -->
+
+<h1>Lista de Professores</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Matrícula</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let professor of professores) { %>
+            <tr>
+                <td><%= professor.idProfessor %></td>
+                <td><%= professor.nome %></td>
+                <td><%= professor.matricula %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>

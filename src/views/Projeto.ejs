@@ -1,0 +1,24 @@
+<!-- views/projetos.ejs -->
+
+<h1>Lista de Projetos</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Data e Hora</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let projeto of projetos) { %>
+            <tr>
+                <td><%= projeto.idProjeto %></td>
+                <td><%= projeto.titulo %></td>
+                <td><%= projeto.descricao %></td>
+                <td><%= projeto.dataHora %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>

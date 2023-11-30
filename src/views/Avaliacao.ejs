@@ -1,0 +1,20 @@
+<!-- views/avaliacoes.ejs -->
+
+<h1>Lista de Avaliações</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Projeto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let avaliacao of avaliacoes) { %>
+            <tr>
+                <td><%= avaliacao.idAvaliacao %></td>
+                <td><%= avaliacao.nomeProjeto %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>

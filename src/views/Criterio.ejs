@@ -1,0 +1,20 @@
+<!-- views/criterios.ejs -->
+
+<h1>Lista de Critérios</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% for (let criterio of criterios) { %>
+            <tr>
+                <td><%= criterio.idCriterio %></td>
+                <td><%= criterio.nome %></td>
+            </tr>
+        <% } %>
+    </tbody>
+</table>
