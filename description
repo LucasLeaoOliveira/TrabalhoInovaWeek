@@ -1,3 +1,0 @@
-git pull origin master  # Certifique-se de ter a versão mais recente do seu repositório
-git commit -m "Adiciona descrição ao repositório"
-git push origin master
