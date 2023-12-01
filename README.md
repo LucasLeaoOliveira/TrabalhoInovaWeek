@@ -1,2 +1,2 @@
 # TrabalhoInovaWeek
-modelar um sistema de avaliação do Inova Week.
+Modelar um sistema de avaliação do Inova Week.
