@@ -1,3 +1,5 @@
+Integrantes: Lucas Leão Oliveira; Jonas Neto Comerio; João Marcos Maia Zoppi;
+
 Objetivo: Modelar um sistema de avaliação do Inova Week.
  Vocês devem modelar um sistema para avaliar estandes do evento,
  nos quais grupos de alunos estão apresentando seus projetos em uma determinada data e hora.
